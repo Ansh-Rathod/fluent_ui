@@ -63,7 +63,7 @@ class HyperlinkButton extends BaseButton {
     return ButtonStyle(
       backgroundColor: backgroundColor(theme),
       shape: WidgetStatePropertyAll(
-        RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+        RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
       padding: const WidgetStatePropertyAll(kDefaultButtonPadding),
       foregroundColor: WidgetStateProperty.resolveWith((states) {
@@ -78,7 +78,7 @@ class HyperlinkButton extends BaseButton {
         }
       }),
       textStyle: const WidgetStatePropertyAll(
-        TextStyle(fontWeight: FontWeight.w600, letterSpacing: 0.5),
+        TextStyle(fontWeight: FontWeight.w600),
       ),
     );
   }

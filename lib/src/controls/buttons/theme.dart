@@ -331,11 +331,11 @@ class ButtonThemeData with Diagnosticable {
     if (states.isPressed || states.isDisabled) {
       return RoundedRectangleBorder(
         side: BorderSide(color: theme.resources.controlStrokeColorDefault),
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(12),
       );
     } else {
       return RoundedRectangleGradientBorder(
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(12),
         gradient: LinearGradient(
           begin: Alignment.center,
           end: const Alignment(0, 3),

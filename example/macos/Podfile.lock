@@ -1,21 +1,51 @@
 PODS:
+  - clipboard (3.0.9):
+    - FlutterMacOS
   - FlutterMacOS (1.0.0)
+  - macos_window_utils (1.0.0):
+    - FlutterMacOS
   - screen_retriever_macos (0.0.1):
+    - FlutterMacOS
+  - system_theme (3.2.0):
+    - FlutterMacOS
+  - url_launcher_macos (0.0.1):
+    - FlutterMacOS
+  - window_manager (0.5.0):
     - FlutterMacOS
 
 DEPENDENCIES:
+  - clipboard (from `Flutter/ephemeral/.symlinks/plugins/clipboard/macos`)
   - FlutterMacOS (from `Flutter/ephemeral`)
+  - macos_window_utils (from `Flutter/ephemeral/.symlinks/plugins/macos_window_utils/macos`)
   - screen_retriever_macos (from `Flutter/ephemeral/.symlinks/plugins/screen_retriever_macos/macos`)
+  - system_theme (from `Flutter/ephemeral/.symlinks/plugins/system_theme/macos`)
+  - url_launcher_macos (from `Flutter/ephemeral/.symlinks/plugins/url_launcher_macos/macos`)
+  - window_manager (from `Flutter/ephemeral/.symlinks/plugins/window_manager/macos`)
 
 EXTERNAL SOURCES:
+  clipboard:
+    :path: Flutter/ephemeral/.symlinks/plugins/clipboard/macos
   FlutterMacOS:
     :path: Flutter/ephemeral
+  macos_window_utils:
+    :path: Flutter/ephemeral/.symlinks/plugins/macos_window_utils/macos
   screen_retriever_macos:
     :path: Flutter/ephemeral/.symlinks/plugins/screen_retriever_macos/macos
+  system_theme:
+    :path: Flutter/ephemeral/.symlinks/plugins/system_theme/macos
+  url_launcher_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/url_launcher_macos/macos
+  window_manager:
+    :path: Flutter/ephemeral/.symlinks/plugins/window_manager/macos
 
 SPEC CHECKSUMS:
+  clipboard: 061186ca335abf2c088ca954017ffc88618ab85b
   FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
-  screen_retriever_macos: 452e51764a9e1cdb74b3c541238795849f21557f
+  macos_window_utils: 721df4da91cb4bde7b2b7b6ae93cdead4851118f
+  screen_retriever_macos: 776e0fa5d42c6163d2bf772d22478df4b302b161
+  system_theme: b46403706c6e5d36cc27dca11ecdcb9d25e0bad4
+  url_launcher_macos: 175a54c831f4375a6cf895875f716ee5af3888ce
+  window_manager: e25faf20d88283a0d46e7b1a759d07261ca27575
 
 PODFILE CHECKSUM: 0d3963a09fc94f580682bd88480486da345dc3f0
 

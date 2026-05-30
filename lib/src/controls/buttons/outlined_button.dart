@@ -67,7 +67,7 @@ class OutlinedButton extends BaseButton {
       padding: const WidgetStatePropertyAll(kDefaultButtonPadding),
       shape: WidgetStatePropertyAll(
         RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(2),
+          borderRadius: BorderRadius.circular(12),
           side: BorderSide(color: theme.inactiveColor),
         ),
       ),

@@ -132,7 +132,7 @@ class FilledButton extends Button {
             side: BorderSide(
               color: theme.resources.controlFillColorTransparent,
             ),
-            borderRadius: BorderRadius.circular(4),
+            borderRadius: BorderRadius.circular(12),
           )
         : RoundedRectangleGradientBorder(
             gradient: LinearGradient(
@@ -145,7 +145,7 @@ class FilledButton extends Button {
               stops: const [0.33, 1.0],
               transform: const GradientRotation(pi),
             ),
-            borderRadius: BorderRadius.circular(4),
+            borderRadius: BorderRadius.circular(12),
           );
   }
 }

@@ -1558,29 +1558,29 @@ class _TextBoxState extends State<TextBox>
                   WidgetStateProperty.resolveWith((states) {
                         if (states.isFocused) {
                           return BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                color:
-                                    widget.highlightColor ??
-                                    themeData.accentColor.defaultBrushFor(
-                                      themeData.brightness,
-                                    ),
-                                width: 2,
-                              ),
-                            ),
+                            // border: Border(
+                            //   bottom: BorderSide(
+                            //     color:
+                            //         widget.highlightColor ??
+                            //         themeData.accentColor.defaultBrushFor(
+                            //           themeData.brightness,
+                            //         ),
+                            //     width: 2,
+                            //   ),
+                            // ),
                           );
                         } else if (enabled) {
                           return BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                color:
-                                    widget.unfocusedColor ??
-                                    themeData
-                                        .resources
-                                        .controlStrongStrokeColorDefault,
-                                width: 1.25,
-                              ),
-                            ),
+                            // border: Border(
+                            //   bottom: BorderSide(
+                            //     color:
+                            //         widget.unfocusedColor ??
+                            //         themeData
+                            //             .resources
+                            //             .controlStrongStrokeColorDefault,
+                            //     width: 1.25,
+                            //   ),
+                            // ),
                           );
                         } else {
                           return const BoxDecoration();

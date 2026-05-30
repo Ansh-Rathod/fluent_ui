@@ -4,9 +4,9 @@ import 'package:fluent_ui/fluent_ui.dart';
 ///
 /// This matches the padding used by WinUI button controls.
 const kDefaultButtonPadding = EdgeInsetsDirectional.only(
-  start: 11,
+  start: 16,
   top: 5,
-  end: 11,
+  end: 16,
   bottom: 6,
 );
 

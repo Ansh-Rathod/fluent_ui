@@ -129,7 +129,7 @@ class IconButton extends BaseButton {
         return null;
       }),
       shape: WidgetStatePropertyAll(
-        RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+        RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       ),
     );
   }
